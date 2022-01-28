@@ -145,10 +145,18 @@ body{
 
 .magazine-viewport .next-button,
 .magazine-viewport .previous-button{
-	width:22px;
-	height:662px;
 	position:absolute;
 	top:0;
+}
+
+.button-pc{
+	width:22px;
+	height:662px;
+}
+
+.button-phone{
+	width:22px;
+	height:1148px;
 }
 
 .magazine-viewport .next-button{
@@ -192,6 +200,7 @@ body{
 	background-position:-38px 320px;
 	background-repeat:no-repeat;
 }
+
 
 .magazine-viewport .zoom-in .next-button,
 .magazine-viewport .zoom-in .previous-button{
